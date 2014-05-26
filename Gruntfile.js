@@ -28,23 +28,35 @@ module.exports = function(grunt) {
     },
 
     sass: {
-      dist: {
-        files: {
-          '<%= ii.dist.css %>ink-icons.css': '<%= ii.src.sass %>Ink-Icons.scss'
+        dist: {
+            files: {
+                '<%= ii.dist.css %>ink-icons.css': '<%= ii.src.sass %>Ink-Icons.scss'
+            }
         }
-      }
+    },
+
+    cssmin: {
+        dist: {
+            options: {
+                report: 'gzip',
+                keepSpecialComments: 0
+            },
+            files: {
+                '<%= ii.dist.css %>ink-icons.min.css': ['<%= ii.dist.css %>ink-icons.css']
+            }
+        }
     }
-
-
 
   });
 
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-commands');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   grunt.registerTask('default', ['webfonts','css']);
   grunt.registerTask('webfonts', ['clean:fonts','command:eot','command:ttf','command:woff']);
-  grunt.registerTask('css', ['clean:css','sass']);
+  grunt.registerTask('css', ['clean:css','sass','cssmin']);
+
 
 };

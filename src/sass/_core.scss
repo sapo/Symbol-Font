@@ -1,4 +1,4 @@
-.#{$ii-classname} {
+.#{$ii-prefix} {
   display: inline-block;
   font-family: InkIcons;
   font-style: normal;
@@ -6,4 +6,8 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$ii-prefix}-x2 {
+  font-size: 2em;
 }
