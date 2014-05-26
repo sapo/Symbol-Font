@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'InkIcons';
+  src: url("../fonts/InkIcons.eot?v=0.1.0");
+  /* IE9 Compat Modes */
+  src: url("../fonts/InkIcons.eot?#iefix?v=0.1.0") format("embedded-opentype"), url("../fonts/InkIcons.woff?v=0.1.0") format("woff"), url("../fonts/InkIcons.ttf?v=0.1.0") format("truetype");
+  /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal; }
+.ii {
+  display: inline-block;
+  font-family: InkIcons;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.ii-triangle-down:before {
+  content: "\E000"; }
+
+.ii-triangle-up:before {
+  content: "\E001"; }
+
+.ii-triangle-left:before {
+  content: "\E002"; }
+
+.ii-triangle-right:before {
+  content: "\E003"; }

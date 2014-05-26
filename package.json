@@ -1,0 +1,35 @@
+{
+  "name": "Ink-Icons",
+  "version": "0.1.0",
+  "description": "An icon font made for Ink.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sapo/Ink-Icons.git"
+  },
+  "author": "SAPO",
+  "contributors": [
+    {
+      "name": "Pedro Correia",
+      "email": "pedro.a.correia@co.sapo.pt"
+    },
+    {
+      "name": "Gonçalo Fonseca",
+      "email": "gnpfonseca@co.sapo.pt"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sapo/Ink-Icons/issues"
+  },
+  "homepage": "https://github.com/sapo/Ink-Icons",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-commands": "^0.1.6",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-sass": "^0.7.3"
+  }
+}

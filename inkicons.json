@@ -1,0 +1,14 @@
+{
+  "src": {
+    "sass": "src/sass/",
+    "ttf": "src/ttf/"
+  },
+  "dist": {
+    "css": "dist/css/",
+    "fonts": "dist/fonts/"
+  },
+  "commands": {
+    "eot": "ttf2eot",
+    "woff": "sfnt2woff"
+  }
+}
