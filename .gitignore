@@ -22,3 +22,6 @@ Temporary Items
 
 # NPM
 node_modules
+
+# SASS
+.sass-cache
