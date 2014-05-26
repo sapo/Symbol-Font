@@ -1,11 +1,17 @@
-// Triangle Arrows
-$ii-triangle-up: '\E000';
-$ii-triangle-right: '\E001';
-$ii-triangle-down: '\E002';
-$ii-triangle-left: '\E003';
-
-// Arrows
-$ii-arrow-up: '\E004';
-$ii-arrow-right: '\E005';
-$ii-arrow-down: '\E006';
-$ii-arrow-left: '\E007';
+$ii-icons: (
+    // TRIANGLES
+    ('triangle-up', '\e000'),
+    ('triangle-right', '\e001'),
+    ('triangle-down', '\e002'),
+    ('triangle-left', '\e003'),
+    // ARROWS
+    ('arrow-up', '\e004'),
+    ('arrow-right', '\e005'),
+    ('arrow-down', '\e006'),
+    ('arrow-left', '\e007'),
+    // CHEVRONS
+    ('chevron-up', '\e008'),
+    ('chevron-right', '\e009'),
+    ('chevron-down', '\e010'),
+    ('chevron-left', '\e011')
+);
