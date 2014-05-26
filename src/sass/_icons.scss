@@ -1,4 +1,9 @@
-.#{$ii-classname}-triangle-down:before { content: $ii-triangle-down; }
 .#{$ii-classname}-triangle-up:before { content: $ii-triangle-up; }
-.#{$ii-classname}-triangle-left:before { content: $ii-triangle-left; }
 .#{$ii-classname}-triangle-right:before { content: $ii-triangle-right; }
+.#{$ii-classname}-triangle-down:before { content: $ii-triangle-down; }
+.#{$ii-classname}-triangle-left:before { content: $ii-triangle-left; }
+
+.#{$ii-classname}-arrow-up:before { content: $ii-arrow-up; }
+.#{$ii-classname}-arrow-right:before { content: $ii-arrow-right; }
+.#{$ii-classname}-arrow-down:before { content: $ii-arrow-down; }
+.#{$ii-classname}-arrow-left:before { content: $ii-arrow-left; }

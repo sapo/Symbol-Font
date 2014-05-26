@@ -15,14 +15,26 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.ii-triangle-down:before {
+.ii-triangle-up:before {
   content: "\E000"; }
 
-.ii-triangle-up:before {
+.ii-triangle-right:before {
   content: "\E001"; }
 
-.ii-triangle-left:before {
+.ii-triangle-down:before {
   content: "\E002"; }
 
-.ii-triangle-right:before {
+.ii-triangle-left:before {
   content: "\E003"; }
+
+.ii-arrow-up:before {
+  content: "\E004"; }
+
+.ii-arrow-right:before {
+  content: "\E005"; }
+
+.ii-arrow-down:before {
+  content: "\E006"; }
+
+.ii-arrow-left:before {
+  content: "\E007"; }
