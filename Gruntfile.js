@@ -29,9 +29,12 @@ module.exports = function(grunt) {
 
     sass: {
         dist: {
-            files: {
-                '<%= ii.dist.css %>ink-icons.css': '<%= ii.src.sass %>Ink-Icons.scss'
-            }
+          options: {                       // Target options
+            style: 'expanded'
+          },
+          files: {
+            '<%= ii.dist.css %>ink-icons.css': '<%= ii.src.sass %>Ink-Icons.scss'
+          }
         }
     },
 
@@ -45,7 +48,19 @@ module.exports = function(grunt) {
                 '<%= ii.dist.css %>ink-icons.min.css': ['<%= ii.dist.css %>ink-icons.css']
             }
         }
-    }
+    },
+
+    watch: {
+      all: {
+        files: ['<%= ii.src.ttf %>Ink-Icons.ttf','<%= ii.src.sass %>**/*.scss'],
+        tasks: ['css','webfonts'],
+        options: {
+          spawn: false,
+        },
+      },
+    },
+
+
 
   });
 
@@ -58,6 +73,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['webfonts','css']);
   grunt.registerTask('webfonts', ['clean:fonts','command:eot','command:ttf','command:woff']);
   grunt.registerTask('css', ['clean:css','sass','cssmin']);
+  grunt.registerTask('dev', ['watch']);
 
 
 };
