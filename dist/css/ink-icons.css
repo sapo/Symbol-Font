@@ -53,3 +53,24 @@
 
 .ii-chevron-left:before {
   content: "\e011"; }
+
+.ii-square:before {
+  content: "\e012"; }
+
+.ii-square-minus:before {
+  content: "\e013"; }
+
+.ii-square-plus:before {
+  content: "\e014"; }
+
+.ii-stroke-square:before {
+  content: "\e015"; }
+
+.ii-stroke-minus:before {
+  content: "\e016"; }
+
+.ii-stroke-plus:before {
+  content: "\e017"; }
+
+.ii-sapo:before {
+  content: "\e100"; }
