@@ -86,24 +86,44 @@
   content: "\e0bb";
 }
 
-.ii-circle-chevron-up:before {
+.ii-circle-chevron-up-outline:before {
   content: "\e0cf";
 }
 
-.ii-circle-chevron-down:before {
+.ii-circle-chevron-down-outline:before {
   content: "\e0d0";
 }
 
-.ii-circle-chevron-left:before {
+.ii-circle-chevron-left-outline:before {
   content: "\e0d1";
 }
 
-.ii-circle-chevron-right:before {
+.ii-circle-chevron-right-outline:before {
+  content: "\e0d2";
+}
+
+.ii-circle-outline:before {
+  content: "\e0df";
+}
+
+.ii-circle-check-outline:before {
+  content: "\e0d0";
+}
+
+.ii-circle-plus-outline:before {
+  content: "\e0d1";
+}
+
+.ii-circle-minus-outline:before {
+  content: "\e0d2";
+}
+
+.ii-circle-minus-x:before {
   content: "\e0d2";
 }
 
 .ii-square:before {
-  content: "\05c";
+  content: "\e05c";
 }
 
 .ii-square-check:before {
@@ -180,38 +200,6 @@
 
 .ii-circle-x-dash:before {
   content: "\e0a5";
-}
-
-.ii-circle-chevron-up:before {
-  content: "\e018";
-}
-
-.ii-circle-chevron-right:before {
-  content: "\e019";
-}
-
-.ii-circle-chevron-down:before {
-  content: "\e020";
-}
-
-.ii-circle-chevron-left:before {
-  content: "\e021";
-}
-
-.ii-circle-h-chevron-up:before {
-  content: "\e022";
-}
-
-.ii-circle-h-chevron-right:before {
-  content: "\e023";
-}
-
-.ii-circle-h-chevron-down:before {
-  content: "\e024";
-}
-
-.ii-circle-h-chevron-left:before {
-  content: "\e025";
 }
 
 .ii-reorder:before {
