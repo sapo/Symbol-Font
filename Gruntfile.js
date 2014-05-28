@@ -16,20 +16,20 @@ module.exports = function(grunt) {
 
     command : {
         eot: {
-            cmd  : '<%= ii.commands.eot %> < <%= ii.src.ttf %>Ink-Icons.ttf > <%= ii.dist.fonts %>InkIcons.eot'
-        },
-        ttf: {
-            cmd  : 'cp <%= ii.src.ttf %>Ink-Icons.ttf <%= ii.dist.fonts %>InkIcons.ttf'
+            cmd  : '<%= ii.commands.eot %> < <%= ii.dist.fonts %>InkIcons.ttf > <%= ii.dist.fonts %>InkIcons.eot'
         },
         woff: {
             cwd: './',
             cmd  : '<%= ii.commands.woff %> <%= ii.dist.fonts %>InkIcons.ttf'
         },
+        hint: {
+          cmd  : '<%= ii.commands.hint %> -s <%= ii.src.ttf %>Ink-Icons.ttf  <%= ii.dist.fonts %>InkIcons.ttf'
+        }
     },
 
     sass: {
         dist: {
-          options: {                       // Target options
+          options: {
             style: 'expanded'
           },
           files: {
@@ -53,22 +53,29 @@ module.exports = function(grunt) {
     font_sampler: {
       ink_icons: {
         options: {
-          charmap: "chars.json"
+          charmap: "chars.json",
+          stylesheets: ["http://cdn.ink.sapo.pt/3.0.2/css/ink.min.css","css/ink-icons.css"]
         }
       }
     },
 
     watch: {
-      all: {
-        files: ['<%= ii.src.ttf %>Ink-Icons.ttf','<%= ii.src.sass %>**/*.scss'],
-        tasks: ['css','webfonts','font_sampler'],
-        options: {
-          spawn: false,
-        },
+      options: {
+        spawn: false
       },
-    },
-
-
+      fonts: {
+        files: ['<%= ii.src.ttf %>Ink-Icons.ttf'],
+        tasks: ['webfonts'],
+      },
+      css: {
+        files: ['<%= ii.src.sass %>**/*.scss'],
+        tasks: ['css'],
+      },
+      sampler: {
+        files: ['chars.json'],
+        tasks: ['font_sampler'],
+      },
+    }
 
   });
 
@@ -80,7 +87,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('default', ['webfonts','css','font_sampler']);
-  grunt.registerTask('webfonts', ['clean:fonts','command:eot','command:ttf','command:woff']);
+  grunt.registerTask('webfonts', ['clean:fonts','command:hint','command:eot','command:woff']);
   grunt.registerTask('css', ['clean:css','sass','cssmin']);
   grunt.registerTask('dev', ['watch']);
 

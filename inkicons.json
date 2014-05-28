@@ -9,6 +9,7 @@
   },
   "commands": {
     "eot": "ttf2eot",
-    "woff": "sfnt2woff"
+    "woff": "sfnt2woff",
+    "hint": "ttfautohint"
   }
 }
