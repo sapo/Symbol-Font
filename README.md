@@ -19,12 +19,14 @@ Check the [TODO.md](https://github.com/sapo/Ink-Icons/blob/master/TODO.md) file
 * ttf2eot
 * sfnt2woff
 * Sass
+* ttfautohint
 
 ### Setting up the build environment (OS X)
 
 * Install [Node.js](http://nodejs.org/)
 * Install **Grunt**. From a terminal run: ```npm install -g grunt-cli```
 * Install **ttf2eot**. From a terminal run: ```brew install ttf2eot```
+* Install **ttfautohint**. From a terminal run: ```brew install ttfautohint```
 * Get **[sfnt2woff](http://people.mozilla.org/~jkew/woff/sfnt2woff)**.
   - Unzip the binary and put it somewhere available to your $PATH system variable, e.g. ```cp sfnt2woff /user/local/bin/```.
   - Make sure it is executable ```chmod +x /usr/local/bin/sfnt2woff```
