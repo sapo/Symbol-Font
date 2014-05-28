@@ -50,10 +50,18 @@ module.exports = function(grunt) {
         }
     },
 
+    font_sampler: {
+      ink_icons: {
+        options: {
+          charmap: "chars.json"
+        }
+      }
+    },
+
     watch: {
       all: {
         files: ['<%= ii.src.ttf %>Ink-Icons.ttf','<%= ii.src.sass %>**/*.scss'],
-        tasks: ['css','webfonts'],
+        tasks: ['css','webfonts','font_sampler'],
         options: {
           spawn: false,
         },
@@ -64,13 +72,14 @@ module.exports = function(grunt) {
 
   });
 
+  grunt.loadNpmTasks('grunt-font-sampler');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-commands');
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('default', ['webfonts','css']);
+  grunt.registerTask('default', ['webfonts','css','font_sampler']);
   grunt.registerTask('webfonts', ['clean:fonts','command:eot','command:ttf','command:woff']);
   grunt.registerTask('css', ['clean:css','sass','cssmin']);
   grunt.registerTask('dev', ['watch']);
