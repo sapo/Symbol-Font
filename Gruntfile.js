@@ -23,7 +23,7 @@ module.exports = function(grunt) {
             cmd  : '<%= ii.commands.woff %> <%= ii.dist.fonts %>InkIcons.ttf'
         },
         hint: {
-          cmd  : '<%= ii.commands.hint %> -s <%= ii.src.ttf %>Ink-Icons.ttf  <%= ii.dist.fonts %>InkIcons.ttf'
+          cmd  : '<%= ii.commands.hint %> -psw  <%= ii.src.ttf %>Ink-Icons.ttf  <%= ii.dist.fonts %>InkIcons.ttf'
         }
     },
 
