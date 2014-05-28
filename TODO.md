@@ -9,7 +9,4 @@
 * Hints for 16, 17, 18, 32
 * Check rendering on Windows, OS X and Debian
 * Test
- - IE8 and up
- - Chrome on Windows, OS X, Ubuntu, Android and iOS
- - Firefox on Windows, OS X, Ubuntu, Android and iOS
- - Safari on OS X and iOS
+ - Windows Vista+ and IE8+

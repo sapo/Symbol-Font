@@ -55,7 +55,6 @@ module.exports = function(grunt) {
         options: {
           charmap: "chars.json",
           stylesheets: ["http://cdn.ink.sapo.pt/3.0.2/css/ink.min.css","css/ink-icons.css"],
-          // sizes: [16,18,24,32,36,40,48],
           colWidth: 50
         }
       }
@@ -81,6 +80,7 @@ module.exports = function(grunt) {
 
   });
 
+  // load tasks
   grunt.loadNpmTasks('grunt-font-sampler');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-commands');
@@ -88,6 +88,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
+  // register tasks
   grunt.registerTask('default', ['webfonts','css','font_sampler']);
   grunt.registerTask('webfonts', ['clean:fonts','command:hint','command:eot','command:woff']);
   grunt.registerTask('css', ['clean:css','sass','cssmin']);
