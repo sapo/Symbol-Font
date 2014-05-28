@@ -56,7 +56,7 @@ module.exports = function(grunt) {
           charmap: "chars.json",
           stylesheets: ["http://cdn.ink.sapo.pt/3.0.2/css/ink.min.css","css/ink-icons.css"],
           // sizes: [16,18,24,32,36,40,48],
-          colWidth: 33
+          colWidth: 50
         }
       }
     },
