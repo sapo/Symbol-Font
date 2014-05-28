@@ -50,12 +50,22 @@ module.exports = function(grunt) {
         }
     },
 
+    //
     font_sampler: {
-      ink_icons: {
+      cols: {
         options: {
           charmap: "chars.json",
           stylesheets: ["http://cdn.ink.sapo.pt/3.0.2/css/ink.min.css","css/ink-icons.css"],
-          colWidth: 50
+          colWidth: 50,
+          dest: 'dist/sample-cols.html'
+        }
+      },
+      lines: {
+        options: {
+          charmap: "chars.json",
+          stylesheets: ["http://cdn.ink.sapo.pt/3.0.2/css/ink.min.css","css/ink-icons.css"],
+          colWidth: 100,
+          dest: 'dist/sample-line.html'
         }
       }
     },
