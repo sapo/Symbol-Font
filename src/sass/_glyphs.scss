@@ -25,13 +25,20 @@ $ii-icons: (
     ('circle-chevron-right', '\e0bb'),
 
     // CIRCLE-CHEVRONS-OUTLINE
-    ('circle-chevron-up', '\e0cf'),
-    ('circle-chevron-down', '\e0d0'),
-    ('circle-chevron-left', '\e0d1'),
-    ('circle-chevron-right', '\e0d2'),
+    ('circle-chevron-up-outline', '\e0cf'),
+    ('circle-chevron-down-outline', '\e0d0'),
+    ('circle-chevron-left-outline', '\e0d1'),
+    ('circle-chevron-right-outline', '\e0d2'),
+
+    // CIRCLE-CHEVRONS-OUTLINE
+    ('circle-outline', '\e0df'),
+    ('circle-check-outline', '\e0d0'),
+    ('circle-plus-outline', '\e0d1'),
+    ('circle-minus-outline', '\e0d2'),
+    ('circle-minus-x', '\e0d2'),
 
     // SQUARES
-    ('square', '\05c'),
+    ('square', '\e05c'),
     ('square-check', '\e05d'),
     ('square-minus', '\e05e'),
     ('square-plus', '\e05f'),
@@ -57,18 +64,6 @@ $ii-icons: (
     ('circle-minus-dash', '\e0a3'),
     ('circle-plus-dash', '\e0a4'),
     ('circle-x-dash', '\e0a5'),
-
-    // circle chevrons
-    ('circle-chevron-up', '\e018'),
-    ('circle-chevron-right', '\e019'),
-    ('circle-chevron-down', '\e020'),
-    ('circle-chevron-left', '\e021'),
-
-    // circle chevrons
-    ('circle-h-chevron-up', '\e022'),
-    ('circle-h-chevron-right', '\e023'),
-    ('circle-h-chevron-down', '\e024'),
-    ('circle-h-chevron-left', '\e025'),
 
     ('reorder', '\e126'),
     ('ul', '\e127'),
