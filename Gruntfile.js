@@ -23,7 +23,7 @@ module.exports = function(grunt) {
             cmd  : '<%= ii.commands.woff %> <%= ii.dist.fonts %>InkIcons.ttf'
         },
         hint: {
-          cmd  : 'cp src/ttf/Ink-Icons.ttf dist/fonts/InkIcons.ttf'
+          cmd  : 'cp src/ttf/InkIcons.ttf dist/fonts/InkIcons.ttf'
           // cmd  : '<%= ii.commands.hint %> -psw  <%= ii.src.ttf %>Ink-Icons.ttf  <%= ii.dist.fonts %>InkIcons.ttf'
         }
     },
@@ -72,7 +72,7 @@ module.exports = function(grunt) {
         spawn: false
       },
       fonts: {
-        files: ['<%= ii.src.ttf %>Ink-Icons.ttf'],
+        files: ['<%= ii.src.ttf %>InkIcons.ttf'],
         tasks: ['webfonts','font_sampler'],
       },
       css: {
