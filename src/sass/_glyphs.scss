@@ -6,6 +6,17 @@ $ii-icons: (
     ('triangle-down','\e002'),
     ('triangle-left','\e003'),
 
+
+    ('circle-triangle-up','\e045'),
+    ('circle-triangle-down','\e046'),
+    ('circle-triangle-left','\e047'),
+    ('circle-triangle-right','\e048'),
+
+    ('circle-triangle-up-outline','\e02e'),
+    ('circle-triangle-down-outline','\e02f'),
+    ('circle-triangle-left-outline','\e030'),
+    ('circle-triangle-right-outline','\e031'),
+
     // ARROWS
     ('arrow-up', '\e017'),
     ('arrow-right', '\e018'),
@@ -59,11 +70,18 @@ $ii-icons: (
     ('square-x-dash', '\e08e'),
 
     // CIRCLES-OUTLINE
-    ('circle-dash', '\e0a1'),
-    ('circle-check-dash', '\e0a2'),
-    ('circle-minus-dash', '\e0a3'),
-    ('circle-plus-dash', '\e0a4'),
-    ('circle-x-dash', '\e0a5'),
+    ('circle-outline', '\e0a1'),
+    ('circle-check-outline', '\e0a2'),
+    ('circle-minus-outline', '\e0a3'),
+    ('circle-plus-outline', '\e0a4'),
+    ('circle-x-outline', '\e0a5'),
+
+
+    ('circle','\e0e6'),
+    ('circle-check','\e0e7'),
+    ('circle-plus','\e0e8'),
+    ('circle-minus','\e0e9'),
+    ('circle-x','\e0ea'),
 
     ('reorder', '\e126'),
     ('ul', '\e127'),

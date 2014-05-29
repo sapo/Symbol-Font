@@ -52,20 +52,16 @@ module.exports = function(grunt) {
 
     //
     font_sampler: {
-      cols: {
-        options: {
-          charmap: "chars.json",
-          stylesheets: ["http://cdn.ink.sapo.pt/3.0.2/css/ink.min.css","css/ink-icons.css"],
-          colWidth: 50,
-          dest: 'dist/sample-cols.html'
-        }
-      },
       lines: {
         options: {
-          charmap: "chars.json",
+          fontname: 'Ink-Icons',
+          charmap: 'chars.json',
+          dest: 'dist/sample.html',
+          sizes: [16,18,20,22,24,26,28,30,32,34,36,38,40],
           stylesheets: ["http://cdn.ink.sapo.pt/3.0.2/css/ink.min.css","css/ink-icons.css"],
-          colWidth: 100,
-          dest: 'dist/sample-line.html'
+          col_width: 100,
+          sample_template: '<div class="all-{% width %} p{% size %}">\n<p>{% size %}px</p>{% glyph %}</div>\n',
+          glyph_template: '<span class="ii ii-{% glyph %}"></span>\n'
         }
       }
     },
@@ -76,7 +72,7 @@ module.exports = function(grunt) {
       },
       fonts: {
         files: ['<%= ii.src.ttf %>Ink-Icons.ttf'],
-        tasks: ['webfonts'],
+        tasks: ['webfonts','font_sampler'],
       },
       css: {
         files: ['<%= ii.src.sass %>**/*.scss'],
