@@ -33,6 +33,6 @@
     "grunt-contrib-cssmin": "^0.9.0",
     "grunt-contrib-sass": "^0.7.3",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-font-sampler": "^1.1.0"
+    "grunt-font-sampler": "^1.2.0"
   }
 }
