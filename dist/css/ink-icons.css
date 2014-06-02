@@ -289,3 +289,19 @@
 .ii-sapo:before {
   content: "\e200";
 }
+
+.ii-calendar-outline:before {
+  content: "\e065";
+}
+
+.ii-celendar:before {
+  content: "\e066";
+}
+
+.ii-calendar-day-outline:before {
+  content: "\e067";
+}
+
+.ii-calendar-day:before {
+  content: "\e068";
+}

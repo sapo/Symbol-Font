@@ -11,6 +11,9 @@ module.exports = function(grunt) {
       ],
       css: [
         '<%= ii.dist.css %>*.css'
+      ],
+      zapf: [
+        'src/zapf/Ink-Icons.xml'
       ]
     },
 
@@ -22,8 +25,8 @@ module.exports = function(grunt) {
             cwd: './',
             cmd  : '<%= ii.commands.woff %> <%= ii.dist.fonts %>InkIcons.ttf'
         },
-        hint: {
-          cmd  : 'cp src/ttf/InkIcons.ttf dist/fonts/InkIcons.ttf'
+        cp: {
+          cmd  : 'cp src/ttf/Ink-Icons.ttf dist/fonts/InkIcons.ttf'
           // cmd  : '<%= ii.commands.hint %> -psw  <%= ii.src.ttf %>Ink-Icons.ttf  <%= ii.dist.fonts %>InkIcons.ttf'
         },
         zapf: {
@@ -85,7 +88,7 @@ module.exports = function(grunt) {
       },
       sampler: {
         files: ['chars.json'],
-        tasks: ['command:zapf','font_sampler'],
+        tasks: ['clean:zapf','command:zapf','font_sampler'],
       },
     }
 
@@ -100,8 +103,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // register tasks
-  grunt.registerTask('default', ['webfonts','command:zapf','font_sampler','css']);
-  grunt.registerTask('webfonts', ['clean:fonts','command:hint','command:eot','command:woff']);
+  grunt.registerTask('default', ['zapf','font_sampler','webfonts','css']);
+  grunt.registerTask('zapf', ['command:zapf']);
+  grunt.registerTask('webfonts', ['clean:fonts','command:cp','command:eot','command:woff']);
   grunt.registerTask('css', ['clean:css','sass','cssmin']);
   grunt.registerTask('dev', ['watch']);
 
