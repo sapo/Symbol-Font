@@ -1,7 +1,4 @@
 {
-DisplayStrings = (
-/square.outline
-);
 copyright = "Copyright (c) 2014 by SAPO. All rights reserved.";
 customParameters = (
 {
@@ -5857,7 +5854,7 @@ unicode = E02F;
 },
 {
 glyphname = clock;
-lastChange = "2014-06-03 16:53:17 +0000";
+lastChange = "2014-06-03 17:38:56 +0000";
 layers = (
 {
 hints = (
@@ -5990,7 +5987,7 @@ nodes = (
 );
 }
 );
-width = 1060;
+width = 1000;
 }
 );
 unicode = E039;
@@ -7250,7 +7247,7 @@ unicode = E044;
 },
 {
 glyphname = ul;
-lastChange = "2014-06-03 16:53:17 +0000";
+lastChange = "2014-06-03 17:45:54 +0000";
 layers = (
 {
 hints = (
@@ -7427,7 +7424,7 @@ unicode = E045;
 },
 {
 glyphname = sapo;
-lastChange = "2014-06-03 16:53:17 +0000";
+lastChange = "2014-06-03 17:32:57 +0000";
 layers = (
 {
 layerId = "D0C94BA9-7956-4545-877F-F891ABB04BC1";
@@ -7512,6 +7509,41 @@ width = 1343;
 }
 );
 unicode = E0E0;
+},
+{
+glyphname = A;
+lastChange = "2014-06-03 17:51:49 +0000";
+layers = (
+{
+layerId = "D0C94BA9-7956-4545-877F-F891ABB04BC1";
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"40 2 LINE",
+"152 2 LINE",
+"213 218 LINE",
+"410 218 LINE",
+"471 1 LINE",
+"583 1 LINE",
+"371 733 LINE",
+"251 733 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"311 617 LINE",
+"392 308 LINE",
+"231 309 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 0041;
 },
 {
 glyphname = cal;
