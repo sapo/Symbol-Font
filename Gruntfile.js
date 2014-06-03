@@ -81,7 +81,7 @@ module.exports = function(grunt) {
       },
       fonts: {
         files: ['<%= config.paths.src.otf %>'],
-        tasks: ['default'],
+        tasks: ['webfonts'],
       },
       css: {
         files: ['<%= config.paths.src.sass %>**/*.scss'],
