@@ -1,6 +1,6 @@
 {
 DisplayStrings = (
-/stopwatch
+/circle.chevron.down.outline
 );
 copyright = "Copyright (c) 2014 by SAPO. All rights reserved.";
 customParameters = (
@@ -5042,9 +5042,41 @@ unicode = E011;
 },
 {
 glyphname = circle.chevron.down.outline;
-lastChange = "2014-06-03 11:00:08 +0000";
+lastChange = "2014-06-03 16:42:16 +0000";
 layers = (
 {
+hints = (
+{
+origin = "{0, 17}";
+target = "{1, 17}";
+},
+{
+origin = "{1, 5}";
+target = "{0, 5}";
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{1, 23}";
+},
+{
+horizontal = 1;
+origin = "{1, 11}";
+target = "{0, 23}";
+},
+{
+horizontal = 1;
+origin = "{0, 23}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = up;
+type = BottomGhost;
+}
+);
 layerId = "D0C94BA9-7956-4545-877F-F891ABB04BC1";
 name = Regular;
 paths = (
