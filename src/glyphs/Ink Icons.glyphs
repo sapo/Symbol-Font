@@ -6986,7 +6986,7 @@ unicode = E044;
 },
 {
 glyphname = ul;
-lastChange = "2014-06-03 16:24:27 +0000";
+lastChange = "2014-06-03 16:25:07 +0000";
 layers = (
 {
 hints = (
@@ -7016,8 +7016,8 @@ target = "{2, 7}";
 {
 horizontal = 1;
 origin = "{5, 3}";
-target = up;
-type = BottomGhost;
+target = down;
+type = TopGhost;
 },
 {
 horizontal = 1;
