@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'InkIcons';
-    src: url('#{$ii-path}InkIcons.eot?v=#{$ii-version}'); /* IE9 Compat Modes */
-    src: url('#{$ii-path}InkIcons.eot?#iefix?v=#{$ii-version}') format('embedded-opentype'), /* IE6-IE8 */
-         url('#{$ii-path}InkIcons.woff?v=#{$ii-version}') format('woff'), /* Modern Browsers */
-         url('#{$ii-path}InkIcons.ttf?v=#{$ii-version}') format('truetype'); /* Safari, Android, iOS */
+    src: url('#{$ii-path}#{$ii-font-file}.eot?v=#{$ii-version}'); /* IE9 Compat Modes */
+    src: url('#{$ii-path}#{$ii-font-file}.eot?#iefix?v=#{$ii-version}') format('embedded-opentype'), /* IE6-IE8 */
+         url('#{$ii-path}#{$ii-font-file}.woff?v=#{$ii-version}') format('woff'), /* Modern Browsers */
+         url('#{$ii-path}#{$ii-font-file}.otf?v=#{$ii-version}') format('opentype'); /* Safari, Android, iOS */
     font-style: normal;
     font-weight: normal;
     // text-rendering: optimizeLegibility;
