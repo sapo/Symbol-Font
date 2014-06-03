@@ -1,6 +1,6 @@
 {
 DisplayStrings = (
-/ul
+/reorder
 );
 copyright = "Copyright (c) 2014 by SAPO. All rights reserved.";
 customParameters = (
@@ -6888,7 +6888,7 @@ unicode = E038;
 },
 {
 glyphname = reorder;
-lastChange = "2014-06-03 16:16:13 +0000";
+lastChange = "2014-06-03 16:26:13 +0000";
 layers = (
 {
 hints = (
@@ -6910,6 +6910,18 @@ target = "{0, 3}";
 {
 origin = "{1, 0}";
 target = "{1, 7}";
+},
+{
+horizontal = 1;
+origin = "{2, 3}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = up;
+type = BottomGhost;
 }
 );
 layerId = "D0C94BA9-7956-4545-877F-F891ABB04BC1";
@@ -6963,7 +6975,7 @@ nodes = (
 "100 580 LINE SMOOTH",
 "100 600 OFFCURVE",
 "116 616 OFFCURVE",
-"136 616 CURVE SMOOTH",
+"136 616 CURVE",
 "923 616 LINE SMOOTH",
 "943 616 OFFCURVE",
 "959 600 OFFCURVE",
