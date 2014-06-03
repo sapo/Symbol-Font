@@ -1,6 +1,6 @@
 {
 DisplayStrings = (
-/circle.chevron.left.outline
+/reorder
 );
 copyright = "Copyright (c) 2014 by SAPO. All rights reserved.";
 customParameters = (
@@ -7119,7 +7119,7 @@ unicode = E038;
 },
 {
 glyphname = reorder;
-lastChange = "2014-06-03 16:53:17 +0000";
+lastChange = "2014-06-03 17:06:48 +0000";
 layers = (
 {
 hints = (
@@ -7182,22 +7182,22 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"100 301 LINE SMOOTH",
-"100 320 OFFCURVE",
-"116 336 OFFCURVE",
-"136 336 CURVE SMOOTH",
-"923 336 LINE SMOOTH",
-"943 336 OFFCURVE",
-"959 320 OFFCURVE",
-"959 301 CURVE SMOOTH",
-"959 231 LINE SMOOTH",
-"959 212 OFFCURVE",
-"943 196 OFFCURVE",
-"923 196 CURVE SMOOTH",
-"136 196 LINE SMOOTH",
-"116 196 OFFCURVE",
-"100 212 OFFCURVE",
-"100 231 CURVE SMOOTH"
+"100 299 LINE SMOOTH",
+"100 318 OFFCURVE",
+"116 334 OFFCURVE",
+"136 334 CURVE SMOOTH",
+"923 334 LINE SMOOTH",
+"943 334 OFFCURVE",
+"959 318 OFFCURVE",
+"959 299 CURVE SMOOTH",
+"959 229 LINE SMOOTH",
+"959 210 OFFCURVE",
+"943 194 OFFCURVE",
+"923 194 CURVE SMOOTH",
+"136 194 LINE SMOOTH",
+"116 194 OFFCURVE",
+"100 210 OFFCURVE",
+"100 229 CURVE SMOOTH"
 );
 },
 {
