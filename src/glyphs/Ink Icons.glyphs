@@ -7012,16 +7012,6 @@ target = "{4, 7}";
 {
 origin = "{2, 0}";
 target = "{2, 7}";
-},
-{
-horizontal = 1;
-origin = "{3, 4}";
-target = "{5, 11}";
-},
-{
-horizontal = 1;
-origin = "{0, 4}";
-target = "{1, 11}";
 }
 );
 layerId = "D0C94BA9-7956-4545-877F-F891ABB04BC1";
