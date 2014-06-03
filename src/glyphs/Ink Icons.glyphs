@@ -1,6 +1,6 @@
 {
 DisplayStrings = (
-/circle.chevron.down.outline
+/circle.chevron.left.outline
 );
 copyright = "Copyright (c) 2014 by SAPO. All rights reserved.";
 customParameters = (
@@ -4804,9 +4804,41 @@ unicode = E017;
 },
 {
 glyphname = circle.chevron.up.outline;
-lastChange = "2014-06-03 11:00:08 +0000";
+lastChange = "2014-06-03 16:43:46 +0000";
 layers = (
 {
+hints = (
+{
+origin = "{1, 17}";
+target = "{2, 17}";
+},
+{
+origin = "{2, 5}";
+target = "{1, 5}";
+},
+{
+horizontal = 1;
+origin = "{1, 11}";
+target = "{2, 23}";
+},
+{
+horizontal = 1;
+origin = "{2, 11}";
+target = "{1, 23}";
+},
+{
+horizontal = 1;
+origin = "{1, 23}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{1, 11}";
+target = up;
+type = BottomGhost;
+}
+);
 layerId = "D0C94BA9-7956-4545-877F-F891ABB04BC1";
 name = Regular;
 paths = (
@@ -4923,9 +4955,41 @@ unicode = E010;
 },
 {
 glyphname = circle.chevron.right.outline;
-lastChange = "2014-06-03 11:00:08 +0000";
+lastChange = "2014-06-03 16:45:24 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 23}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = up;
+type = BottomGhost;
+},
+{
+origin = "{0, 17}";
+target = "{1, 17}";
+},
+{
+origin = "{1, 5}";
+target = "{0, 5}";
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{1, 23}";
+},
+{
+horizontal = 1;
+origin = "{0, 23}";
+target = "{1, 11}";
+}
+);
 layerId = "D0C94BA9-7956-4545-877F-F891ABB04BC1";
 name = Regular;
 paths = (
@@ -5193,16 +5257,36 @@ unicode = E012;
 },
 {
 glyphname = circle.chevron.left.outline;
-lastChange = "2014-06-03 11:00:08 +0000";
+lastChange = "2014-06-03 16:47:33 +0000";
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{1, 23}";
+},
+{
+horizontal = 1;
+origin = "{1, 11}";
+target = "{0, 23}";
+},
+{
+origin = "{0, 17}";
+target = "{1, 17}";
+},
+{
+origin = "{1, 5}";
+target = "{0, 5}";
+}
+);
 layerId = "D0C94BA9-7956-4545-877F-F891ABB04BC1";
 name = Regular;
 paths = (
 {
 closed = 1;
 nodes = (
-"670 721 OFFCURVE",
+"671 721 OFFCURVE",
 "781 671 OFFCURVE",
 "862 590 CURVE SMOOTH",
 "943 509 OFFCURVE",
@@ -5224,8 +5308,8 @@ nodes = (
 "150 509 OFFCURVE",
 "231 590 CURVE SMOOTH",
 "311 671 OFFCURVE",
-"423 721 OFFCURVE",
-"546 721 CURVE SMOOTH"
+"424 721 OFFCURVE",
+"547 721 CURVE SMOOTH"
 );
 },
 {
@@ -5241,9 +5325,9 @@ nodes = (
 "855 456 OFFCURVE",
 "792 519 CURVE SMOOTH",
 "728 582 OFFCURVE",
-"642 621 OFFCURVE",
-"546 621 CURVE SMOOTH",
-"450 621 OFFCURVE",
+"643 621 OFFCURVE",
+"547 621 CURVE SMOOTH",
+"451 621 OFFCURVE",
 "364 582 OFFCURVE",
 "301 519 CURVE SMOOTH",
 "238 456 OFFCURVE",
