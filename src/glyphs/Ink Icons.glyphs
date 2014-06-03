@@ -4833,7 +4833,7 @@ unicode = E017;
 },
 {
 glyphname = circle.chevron.up.outline;
-lastChange = "2014-06-03 16:57:53 +0000";
+lastChange = "2014-06-03 16:59:04 +0000";
 layers = (
 {
 hints = (
@@ -4869,13 +4869,7 @@ type = BottomGhost;
 },
 {
 origin = "{1, 17}";
-target = up;
-type = BottomGhost;
-},
-{
-origin = "{1, 5}";
-target = down;
-type = TopGhost;
+target = "{1, 5}";
 }
 );
 layerId = "D0C94BA9-7956-4545-877F-F891ABB04BC1";
