@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'InkIcons';
-  src: url("../fonts/InkIcons.eot?v=0.1.0");
+  src: url("../fonts/ink-icons.eot?v=0.1.0");
   /* IE9 Compat Modes */
-  src: url("../fonts/InkIcons.eot?#iefix?v=0.1.0") format("embedded-opentype"), url("../fonts/InkIcons.woff?v=0.1.0") format("woff"), url("../fonts/InkIcons.ttf?v=0.1.0") format("truetype");
+  src: url("../fonts/ink-icons.eot?#iefix?v=0.1.0") format("embedded-opentype"), url("../fonts/ink-icons.woff?v=0.1.0") format("woff"), url("../fonts/ink-icons.otf?v=0.1.0") format("truetype");
   /* Safari, Android, iOS */
   font-style: normal;
   font-weight: normal;
@@ -38,230 +38,270 @@
   content: "\e003";
 }
 
-.ii-circle-triangle-up:before {
-  content: "\e045";
-}
-
-.ii-circle-triangle-down:before {
-  content: "\e046";
-}
-
-.ii-circle-triangle-left:before {
-  content: "\e047";
-}
-
-.ii-circle-triangle-right:before {
-  content: "\e048";
-}
-
-.ii-circle-triangle-up-outline:before {
-  content: "\e02e";
-}
-
-.ii-circle-triangle-down-outline:before {
-  content: "\e02f";
-}
-
-.ii-circle-triangle-left-outline:before {
-  content: "\e030";
-}
-
-.ii-circle-triangle-right-outline:before {
-  content: "\e031";
-}
-
-.ii-arrow-up:before {
-  content: "\e017";
-}
-
-.ii-arrow-right:before {
-  content: "\e018";
-}
-
-.ii-arrow-down:before {
-  content: "\e019";
-}
-
-.ii-arrow-left:before {
-  content: "\e01a";
-}
-
 .ii-chevron-up:before {
-  content: "\e00e";
+  content: "\e00c";
 }
 
 .ii-chevron-down:before {
-  content: "\e00f";
+  content: "\e00d";
 }
 
 .ii-chevron-left:before {
-  content: "\e010";
+  content: "\e00e";
 }
 
 .ii-chevron-right:before {
-  content: "\e011";
+  content: "\e00f";
 }
 
-.ii-circle-chevron-up:before {
-  content: "\e0b8";
+.ii-arrow-up:before {
+  content: "\e018";
 }
 
-.ii-circle-chevron-down:before {
-  content: "\e0b9";
+.ii-arrow-right:before {
+  content: "\e019";
 }
 
-.ii-circle-chevron-left:before {
-  content: "\e0ba";
+.ii-arrow-down:before {
+  content: "\e01a";
 }
 
-.ii-circle-chevron-right:before {
-  content: "\e0bb";
+.ii-arrow-left:before {
+  content: "\e01b";
 }
 
-.ii-circle-chevron-up-outline:before {
-  content: "\e0cf";
+.ii-circle-triangle-up-outline:before {
+  content: "\e004";
 }
 
-.ii-circle-chevron-down-outline:before {
-  content: "\e0d0";
+.ii-circle-triangle-down-outline:before {
+  content: "\e005";
 }
 
-.ii-circle-chevron-left-outline:before {
-  content: "\e0d1";
+.ii-circle-triangle-left-outline:before {
+  content: "\e006";
 }
 
-.ii-circle-chevron-right-outline:before {
-  content: "\e0d2";
+.ii-circle-triangle-right-outline:before {
+  content: "\e007";
 }
 
-.ii-circle-outline:before {
-  content: "\e0df";
+.ii-circle-triangle-up:before {
+  content: "\e008";
 }
 
-.ii-circle-check-outline:before {
-  content: "\e0d0";
+.ii-circle-triangle-down:before {
+  content: "\e009";
 }
 
-.ii-circle-plus-outline:before {
-  content: "\e0d1";
+.ii-circle-triangle-left:before {
+  content: "\e00a";
 }
 
-.ii-circle-minus-outline:before {
-  content: "\e0d2";
-}
-
-.ii-circle-minus-x:before {
-  content: "\e0d2";
+.ii-circle-triangle-right:before {
+  content: "\e00b";
 }
 
 .ii-square:before {
-  content: "\e05c";
+  content: "\e01c";
 }
 
 .ii-square-check:before {
-  content: "\e05d";
-}
-
-.ii-square-minus:before {
-  content: "\e05e";
+  content: "\e01d";
 }
 
 .ii-square-plus:before {
-  content: "\e05f";
+  content: "\e01e";
+}
+
+.ii-square-minus:before {
+  content: "\e01f";
 }
 
 .ii-square-x:before {
-  content: "\e060";
+  content: "\e020";
 }
 
 .ii-square-outline:before {
-  content: "\e073";
+  content: "\e021";
 }
 
 .ii-square-check-outline:before {
-  content: "\e074";
-}
-
-.ii-square-minus-outline:before {
-  content: "\e075";
+  content: "\e022";
 }
 
 .ii-square-plus-outline:before {
-  content: "\e076";
+  content: "\e023";
+}
+
+.ii-square-minusoutline:before {
+  content: "\e024";
 }
 
 .ii-square-x-outline:before {
-  content: "\e077";
+  content: "\e025";
 }
 
 .ii-square-dash:before {
-  content: "\e08a";
+  content: "\e026";
 }
 
 .ii-square-check-dash:before {
-  content: "\e08b";
-}
-
-.ii-square-minus-dash:before {
-  content: "\e08c";
+  content: "\e027";
 }
 
 .ii-square-plus-dash:before {
-  content: "\e08d";
+  content: "\e028";
+}
+
+.ii-square-minus-dash:before {
+  content: "\e029";
 }
 
 .ii-square-x-dash:before {
-  content: "\e08e";
+  content: "\e02a";
 }
 
 .ii-circle-outline:before {
-  content: "\e0a1";
+  content: "\e030";
 }
 
 .ii-circle-check-outline:before {
-  content: "\e0a2";
-}
-
-.ii-circle-minus-outline:before {
-  content: "\e0a3";
+  content: "\e031";
 }
 
 .ii-circle-plus-outline:before {
-  content: "\e0a4";
+  content: "\e032";
+}
+
+.ii-circle-minus-outline:before {
+  content: "\e033";
 }
 
 .ii-circle-x-outline:before {
-  content: "\e0a5";
+  content: "\e034";
+}
+
+.ii-circle-chevron-up:before {
+  content: "\e014";
+}
+
+.ii-circle-chevron-down:before {
+  content: "\e015";
+}
+
+.ii-circle-chevron-left:before {
+  content: "\e016";
+}
+
+.ii-circle-chevron-right:before {
+  content: "\e017";
+}
+
+.ii-circle-chevron-up-outline:before {
+  content: "\e010";
+}
+
+.ii-circle-chevron-right-outline:before {
+  content: "\e011";
+}
+
+.ii-circle-chevron-down-outline:before {
+  content: "\e012";
+}
+
+.ii-circle-chevron-left-outline:before {
+  content: "\e013";
 }
 
 .ii-circle:before {
-  content: "\e0e6";
+  content: "\e02b";
 }
 
 .ii-circle-check:before {
-  content: "\e0e7";
+  content: "\e02c";
 }
 
 .ii-circle-plus:before {
-  content: "\e0e8";
+  content: "\e02d";
 }
 
 .ii-circle-minus:before {
-  content: "\e0e9";
+  content: "\e02e";
 }
 
 .ii-circle-x:before {
-  content: "\e0ea";
+  content: "\e02f";
+}
+
+.ii-clock:before {
+  content: "\e039";
+}
+
+.ii-clock-invert:before {
+  content: "\e03a";
+}
+
+.ii-clock-reverse:before {
+  content: "\e03b";
+}
+
+.ii-uni23F1:before {
+  content: "\e03c";
+}
+
+.ii-uni23F1-invert:before {
+  content: "\e03d";
+}
+
+.ii-alarm-clock:before {
+  content: "\e03e";
+}
+
+.ii-alarm-clock-invert:before {
+  content: "\e03f";
+}
+
+.ii-comment-outline:before {
+  content: "\e035";
+}
+
+.ii-comment:before {
+  content: "\e036";
+}
+
+.ii-reply:before {
+  content: "\e037";
+}
+
+.ii-reply-outline:before {
+  content: "\e038";
 }
 
 .ii-reorder:before {
-  content: "\e126";
+  content: "\e044";
 }
 
 .ii-ul:before {
-  content: "\e127";
+  content: "\e045";
 }
 
 .ii-sapo:before {
-  content: "\e200";
+  content: "\e0e0";
+}
+
+.ii-cal:before {
+  content: "\e041";
+}
+
+.ii-cal-day:before {
+  content: "\e043";
+}
+
+.ii-cal-day-outline:before {
+  content: "\e042";
+}
+
+.ii-cal-outline:before {
+  content: "\e040";
 }
