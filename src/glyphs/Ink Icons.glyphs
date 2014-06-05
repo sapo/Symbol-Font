@@ -192,7 +192,7 @@ unicode = 0020;
 },
 {
 glyphname = triangle.up;
-lastChange = "2014-06-03 16:53:17 +0000";
+lastChange = "2014-06-05 12:45:20 +0000";
 layers = (
 {
 hints = (
@@ -3996,9 +3996,41 @@ unicode = E030;
 },
 {
 glyphname = circle.check.outline;
-lastChange = "2014-06-03 16:53:17 +0000";
+lastChange = "2014-06-05 12:44:05 +0000";
 layers = (
 {
+hints = (
+{
+origin = "{0, 14}";
+target = "{1, 14}";
+},
+{
+origin = "{1, 2}";
+target = "{0, 2}";
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{1, 20}";
+},
+{
+horizontal = 1;
+origin = "{1, 8}";
+target = "{0, 20}";
+},
+{
+horizontal = 1;
+origin = "{0, 20}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = up;
+type = BottomGhost;
+}
+);
 layerId = "D0C94BA9-7956-4545-877F-F891ABB04BC1";
 name = Regular;
 paths = (
@@ -8266,7 +8298,7 @@ unicode = E104;
 },
 {
 glyphname = location.outline;
-lastChange = "2014-06-05 10:47:20 +0000";
+lastChange = "2014-06-05 12:42:08 +0000";
 layers = (
 {
 layerId = "D0C94BA9-7956-4545-877F-F891ABB04BC1";
@@ -8381,18 +8413,20 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"551 252 LINE",
+"451 194 LINE",
+"509 294 LINE",
 "481 322 LINE",
 "346 89 LINE",
-"579 224 LINE",
-"714 457 LINE"
+"579 224 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"494 309 LINE",
-"566 237 LINE",
-"396 139 LINE"
+"714 457 LINE",
+"481 322 LINE",
+"579 224 LINE"
 );
 }
 );
