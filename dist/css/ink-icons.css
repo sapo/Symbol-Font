@@ -2,7 +2,7 @@
   font-family: 'InkIcons';
   src: url("../fonts/ink-icons.eot?v=0.1.0");
   /* IE9 Compat Modes */
-  src: url("../fonts/ink-icons.eot?#iefix?v=0.1.0") format("embedded-opentype"), url("../fonts/ink-icons.woff?v=0.1.0") format("woff"), url("../fonts/ink-icons.otf?v=0.1.0") format("truetype");
+  src: url("../fonts/ink-icons.eot?#iefix?v=0.1.0") format("embedded-opentype"), url("../fonts/ink-icons.woff?v=0.1.0") format("woff"), url("../fonts/ink-icons.otf?v=0.1.0") format("opentype");
   /* Safari, Android, iOS */
   font-style: normal;
   font-weight: normal;
@@ -286,12 +286,12 @@
   content: "\e045";
 }
 
-.ii-sapo:before {
-  content: "\e0e0";
-}
-
 .ii-cal:before {
   content: "\e041";
+}
+
+.ii-location:before {
+  content: "\e101";
 }
 
 .ii-cal-day:before {
@@ -304,4 +304,24 @@
 
 .ii-cal-outline:before {
   content: "\e040";
+}
+
+.ii-location-arrow:before {
+  content: "\e105";
+}
+
+.ii-location-arrow-outline:before {
+  content: "\e104";
+}
+
+.ii-location-outline:before {
+  content: "\e100";
+}
+
+.ii-map-marker:before {
+  content: "\e103";
+}
+
+.ii-map-marker-outline:before {
+  content: "\e102";
 }
