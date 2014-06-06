@@ -294,6 +294,10 @@
   content: "\e101";
 }
 
+.ii-star:before {
+  content: "\e106";
+}
+
 .ii-cal-day:before {
   content: "\e043";
 }
@@ -324,4 +328,16 @@
 
 .ii-map-marker-outline:before {
   content: "\e102";
+}
+
+.ii-star-half:before {
+  content: "\e108";
+}
+
+.ii-star-half-outline:before {
+  content: "\e109";
+}
+
+.ii-star-outline:before {
+  content: "\e107";
 }

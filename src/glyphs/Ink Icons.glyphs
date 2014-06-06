@@ -7838,6 +7838,35 @@ width = 1060;
 unicode = E101;
 },
 {
+glyphname = star;
+lastChange = "2014-06-05 13:03:19 +0000";
+layers = (
+{
+layerId = "D0C94BA9-7956-4545-877F-F891ABB04BC1";
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"273 -157 LINE",
+"326 154 LINE",
+"100 375 LINE",
+"412 420 LINE",
+"552 703 LINE",
+"692 420 LINE",
+"1004 375 LINE",
+"778 154 LINE",
+"832 -157 LINE",
+"552 -10 LINE"
+);
+}
+);
+width = 1104;
+}
+);
+unicode = E106;
+},
+{
 glyphname = cal.day;
 lastChange = "2014-06-03 16:53:17 +0000";
 layers = (
@@ -8601,6 +8630,115 @@ width = 690;
 }
 );
 unicode = E102;
+},
+{
+glyphname = star.half;
+lastChange = "2014-06-05 13:03:50 +0000";
+layers = (
+{
+layerId = "D0C94BA9-7956-4545-877F-F891ABB04BC1";
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"552 703 LINE",
+"412 420 LINE",
+"100 375 LINE",
+"326 154 LINE",
+"273 -157 LINE",
+"552 -10 LINE"
+);
+}
+);
+width = 652;
+}
+);
+unicode = E108;
+},
+{
+glyphname = star.half.outline;
+lastChange = "2014-06-05 13:03:42 +0000";
+layers = (
+{
+layerId = "D0C94BA9-7956-4545-877F-F891ABB04BC1";
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"692 420 LINE",
+"552 703 LINE",
+"412 420 LINE",
+"100 375 LINE",
+"326 154 LINE",
+"273 -157 LINE",
+"552 -10 LINE",
+"832 -157 LINE",
+"778 154 LINE",
+"1004 375 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"552 477 LINE",
+"625 329 LINE",
+"789 305 LINE",
+"671 189 LINE",
+"699 26 LINE",
+"552 103 LINE"
+);
+}
+);
+width = 1104;
+}
+);
+unicode = E109;
+},
+{
+glyphname = star.outline;
+lastChange = "2014-06-05 13:03:29 +0000";
+layers = (
+{
+layerId = "D0C94BA9-7956-4545-877F-F891ABB04BC1";
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"692 420 LINE",
+"552 703 LINE",
+"412 420 LINE",
+"100 375 LINE",
+"326 154 LINE",
+"273 -157 LINE",
+"552 -10 LINE",
+"832 -157 LINE",
+"778 154 LINE",
+"1004 375 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"406 26 LINE",
+"434 189 LINE",
+"315 305 LINE",
+"479 329 LINE",
+"552 477 LINE",
+"625 329 LINE",
+"789 305 LINE",
+"671 189 LINE",
+"699 26 LINE",
+"552 103 LINE"
+);
+}
+);
+width = 1104;
+}
+);
+unicode = E107;
 }
 );
 disablesNiceNames = 1;
