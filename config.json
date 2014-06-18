@@ -1,8 +1,9 @@
 {
   "paths": {
     "src": {
-      "otf": "src/otf/InkIcons-regular.otf",
-      "ttf": "src/otf/InkIcons-regular.ttf",
+      "otf": "src/otf/ink-Regular.otf",
+      "ttf": "src/otf/ink-Regular.ttf",
+      "woff": "src/otf/ink-Regular.woff",
       "sass": "src/sass/ink-icons.scss",
       "zapf": "src/zapf-table/InkIcons.xml"
     },

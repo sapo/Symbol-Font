@@ -19,10 +19,10 @@ module.exports = function(grunt) {
 
     command : {
         eot: {
-            cmd  : 'echo <%= config.commands.eot %> < <%= config.paths.src.otf %> > <%= config.paths.dist.fonts.eot %>'
+            cmd  : '<%= config.commands.eot %> < <%= config.paths.src.otf %> > <%= config.paths.dist.fonts.eot %>'
         },
         woff: {
-            cmd  : '<%= config.commands.woff %> <%= config.paths.src.otf %> && mv src/otf/InkIcons-regular.woff <%= config.paths.dist.fonts.woff %>'
+            cmd  : '<%= config.commands.woff %> <%= config.paths.src.otf %> && mv <%= config.paths.src.woff %> <%= config.paths.dist.fonts.woff %>'
         },
         otf: {
           cmd  : 'cp <%= config.paths.src.otf %> <%= config.paths.dist.fonts.otf %>'

@@ -9,6 +9,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.#{$ii-prefix}-x2 {
+.#{$ii-prefix}-large {
+  font-size: 1.5em;
+}
+
+.#{$ii-prefix}-double {
   font-size: 2em;
 }
