@@ -162,8 +162,20 @@
   content: "\e02b";
 }
 
+.ii-plus-circle-o:before {
+  content: "\e02d";
+}
+
+.ii-minus-circle-o:before {
+  content: "\e02c";
+}
+
 .ii-checked-circle-o:before {
   content: "\e02e";
+}
+
+.ii-x-circle-o:before {
+  content: "\e02f";
 }
 
 .ii-empty-square:before {
@@ -360,4 +372,20 @@
 
 .ii-search:before {
   content: "\e057";
+}
+
+.ii-mail:before {
+  content: "\e058";
+}
+
+.ii-test-tube:before {
+  content: "\e059";
+}
+
+.ii-thumbs-up:before {
+  content: "\e05a";
+}
+
+.ii-thumbs-down:before {
+  content: "\e05b";
 }
