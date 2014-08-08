@@ -28,6 +28,9 @@ Check the [TODO.md](https://github.com/sapo/Ink-Icons/blob/master/TODO.md) file
 * Get **[sfnt2woff](http://people.mozilla.org/~jkew/woff/sfnt2woff)**.
   - Unzip the binary and put it somewhere available to your $PATH system variable, e.g. ```cp sfnt2woff /user/local/bin/```.
   - Make sure it is executable ```chmod +x /usr/local/bin/sfnt2woff```
+* Get [Apple Font Tools Suite](https://developer.apple.com/fonts/FontTools3.0.pkg.zip)
+  - Unzip and copy/move ftxanalyzer to somewhere available to your $PATH system variable, e.g. ```cp ftxanalyzer /user/local/bin/```.
+  - Make sure it is executable ```chmod +x /usr/local/bin/sfnt2woff```
 * Install SASS ```gem install sass``` or ```sudo gem install sass``` of you get errors.
 * Run ```npm install``` from the Ink-Icons project root to finish the setup.
 
