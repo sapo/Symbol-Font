@@ -65,7 +65,7 @@ module.exports = function(grunt) {
           charmap: '<%= config.paths.src.zapf %>',
           dest: 'index.html',
           sass: 'src/sass/_glyphs.scss',
-          sizes: [18,20,22,24,26,28,30,32,34,36,38,40],
+          sizes: [18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,55,60],
           stylesheets: ["http://cdn.ink.sapo.pt/3.0.2/css/ink.min.css","dist/css/symbol-font.css"],
           col_width: 100,
           sample_template: '<div class="all-{% width %} p{% size %}">\n<p>{% size %}px</p>{% glyph %}</div>\n',
