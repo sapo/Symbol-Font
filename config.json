@@ -1,21 +1,22 @@
 {
   "paths": {
     "src": {
-      "otf": "src/otf/ink-Regular.otf",
-      "ttf": "src/otf/ink-Regular.ttf",
-      "woff": "src/otf/ink-Regular.woff",
-      "sass": "src/sass/ink-icons.scss",
-      "zapf": "src/zapf-table/InkIcons.xml"
+      "otf": "src/otf/SymbolFont-Regular.otf",
+      "ttf": "src/otf/SymbolFont-Regular.ttf",
+      "woff": "src/otf/SymbolFont-Regular.woff",
+      "sass": "src/sass/symbol-font.scss",
+      "zapf": "src/zapf-table/SymbolFont.xml"
     },
     "dist": {
       "fonts": {
-        "otf": "dist/fonts/ink-icons.otf",
-        "woff": "dist/fonts/ink-icons.woff",
-        "eot": "dist/fonts/ink-icons.eot"
+        "otf": "dist/fonts/symbol-font.otf",
+        "woff": "dist/fonts/symbol-font.woff",
+        "eot": "dist/fonts/symbol-font.eot"
       },
       "css": {
         "dir": "dist/css/",
-        "file": "ink-icons.css"
+        "file": "symbol-font.css",
+        "min": "symbol-font.min.css"
       }
     }
   },

@@ -1,8 +1,6 @@
-# Ink-Icons
-
+# Symbol Font
 
 An icon font made for Ink
-
 
 ## Tasks
 Check the [TODO.md](https://github.com/sapo/Ink-Icons/blob/master/TODO.md) file
@@ -11,7 +9,7 @@ Check the [TODO.md](https://github.com/sapo/Ink-Icons/blob/master/TODO.md) file
 ## Development tools
 
 * Adobe Illustrator CS5
-* FontLab Studio 5
+* Glyphs
 
 ## Build tools
 
@@ -41,5 +39,5 @@ There are 3 available Grunt tasks:
  - It will clean up the ```dist/fonts``` and ```dist/css``` folders, recompile and minify the css and build the font files from the ```src/ttf``` file.
 2. The ```css``` task: ```grunt css```
  - It will clean up the ```dist/css``` folder, recompile and minify the css.
-3. The ```webfonts``` task: ```grunt```
+3. The ```webfonts``` task: ```grunt webfonts```
  - It will clean up the ```dist/fonts``` folder and build the font files from the ```src/ttf``` file.

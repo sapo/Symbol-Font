@@ -5,7 +5,7 @@
     $icon-classname: nth($icon,1);
     $icon-glyph-unicode: nth($icon,2);
 
-    .#{$ii-prefix}-#{$icon-classname}:before {
+    .#{$icon-classname}:before {
       content: $icon-glyph-unicode;
     }
 

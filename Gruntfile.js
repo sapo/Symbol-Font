@@ -17,6 +17,8 @@ module.exports = function(grunt) {
       ]
     },
 
+
+
     command : {
         eot: {
             cmd  : '<%= config.commands.eot %> < <%= config.paths.src.otf %> > <%= config.paths.dist.fonts.eot %>'
@@ -30,9 +32,6 @@ module.exports = function(grunt) {
         zapf: {
           cmd: ' <%= config.commands.zapf %> <%= config.paths.src.zapf %> <%= config.paths.src.ttf %><%= config.paths.src.font %>'
         }
-        // ,hint: {
-        //   cmd  : '<%= config.commands.hint %> -psw  <%= config.paths.src.otf %> <%= config.paths.dist.fonts.otf %>InkIcons.ttf'
-        // }
     },
 
     sass: {
@@ -53,7 +52,7 @@ module.exports = function(grunt) {
                 keepSpecialComments: 0
             },
             files: {
-                '<%= config.paths.dist.css.dir %>ink-icons.min.css': ['<%= config.paths.dist.css.dir %><%= config.paths.dist.css.file %>']
+                '<%= config.paths.dist.css.dir %><%= config.paths.dist.css.min %>': ['<%= config.paths.dist.css.dir %><%= config.paths.dist.css.file %>']
             }
         }
     },
@@ -62,15 +61,15 @@ module.exports = function(grunt) {
     font_sampler: {
       main: {
         options: {
-          fontname: 'Ink-Icons',
+          fontname: 'Symbol Font',
           charmap: '<%= config.paths.src.zapf %>',
           dest: 'index.html',
           sass: 'src/sass/_glyphs.scss',
           sizes: [18,20,22,24,26,28,30,32,34,36,38,40],
-          stylesheets: ["http://cdn.ink.sapo.pt/3.0.2/css/ink.min.css","dist/css/ink-icons.css"],
+          stylesheets: ["http://cdn.ink.sapo.pt/3.0.2/css/ink.min.css","dist/css/symbol-font.css"],
           col_width: 100,
           sample_template: '<div class="all-{% width %} p{% size %}">\n<p>{% size %}px</p>{% glyph %}</div>\n',
-          glyph_template: '<span class="ii ii-{% glyph %}"></span>\n'
+          glyph_template: '<span class="sf {% glyph %}"></span>\n'
         }
       }
     },

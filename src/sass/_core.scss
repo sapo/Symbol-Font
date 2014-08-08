@@ -1,6 +1,6 @@
-.#{$ii-prefix} {
+.#{$sf-prefix} {
   display: inline-block;
-  font-family: InkIcons;
+  font-family: $sf-font-family;
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -9,10 +9,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.#{$ii-prefix}-large {
+.#{$sf-prefix}-large {
   font-size: 1.5em;
 }
 
-.#{$ii-prefix}-double {
+.#{$sf-prefix}-double {
   font-size: 2em;
 }
