@@ -96,7 +96,7 @@ sf.thumbs.down
 sf.player.play
 sf.player.pause
 sf.player.stop
-sf.player.rw
+sf.player.rew
 sf.player.ff
 sf.player.previous
 sf.player.next
@@ -106,4 +106,14 @@ sf.player.repeat
 sf.player.volume.muted
 sf.player.volume.middle
 sf.player.volume.max
+sf.resize
+sf.resize.h
+sf.resize.v
+sf.resize.expand
+sf.resize.compress
+sf.reload
+sf.refresh
+sf.home
+sf.ink.badge
+sf.ink.badge.neg
 sf.sapo
