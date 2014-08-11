@@ -65,11 +65,11 @@ module.exports = function(grunt) {
           charmap: '<%= config.paths.src.zapf %>',
           dest: 'index.html',
           sass: 'src/sass/_glyphs.scss',
-          sizes: [18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,55,60],
+          sizes: [18],
           stylesheets: ["http://cdn.ink.sapo.pt/3.0.2/css/ink.min.css","dist/css/symbol-font.css"],
           col_width: 100,
-          sample_template: '<div class="all-{% width %} p{% size %}">\n<p>{% size %}px</p>{% glyph %}</div>\n',
-          glyph_template: '<span class="sf {% glyph %}"></span>\n'
+          sample_template: '{% glyph %}\n',
+          glyph_template: '<div class="xlarge-10 large-15 medium-20 small-20 tiny-25"><button class="ink-button all-100 white p{% size %}"><span class="sf {% glyph %}"></span></button></div>\n'
         }
       }
     },
@@ -99,7 +99,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // register tasks
-  grunt.registerTask('default', ['zapf','webfonts','font_sampler','css']);
+  grunt.registerTask('default', ['zapf','webfonts','css','font_sampler']);
   grunt.registerTask('zapf', ['clean:zapf','command:zapf']);
   grunt.registerTask('webfonts', ['clean:fonts','command:otf','command:eot','command:woff']);
   grunt.registerTask('css', ['clean:css','sass','cssmin']);
