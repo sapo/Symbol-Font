@@ -402,10 +402,6 @@
   content: "\e05e";
 }
 
-.sf-player-rw:before {
-  content: "\e05f";
-}
-
 .sf-player-ff:before {
   content: "\e060";
 }
@@ -428,4 +424,56 @@
 
 .sf-player-repeat:before {
   content: "\e065";
+}
+
+.sf-player-volume-muted:before {
+  content: "\e066";
+}
+
+.sf-player-volume-middle:before {
+  content: "\e067";
+}
+
+.sf-player-volume-max:before {
+  content: "\e068";
+}
+
+.sf-resize:before {
+  content: "\e069";
+}
+
+.sf-resize-h:before {
+  content: "\e06a";
+}
+
+.sf-resize-v:before {
+  content: "\e06b";
+}
+
+.sf-resize-expand:before {
+  content: "\e06c";
+}
+
+.sf-resize-compress:before {
+  content: "\e06d";
+}
+
+.sf-reload:before {
+  content: "\e06e";
+}
+
+.sf-refresh:before {
+  content: "\e06f";
+}
+
+.sf-home:before {
+  content: "\e070";
+}
+
+.sf-badge:before {
+  content: "\e071";
+}
+
+.sf-badge-neg:before {
+  content: "\e072";
 }

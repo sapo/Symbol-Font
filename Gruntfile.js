@@ -99,7 +99,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // register tasks
-  grunt.registerTask('default', ['zapf','webfonts','font_sampler','css']);
+  grunt.registerTask('default', ['zapf','webfonts','css','font_sampler']);
   grunt.registerTask('zapf', ['clean:zapf','command:zapf']);
   grunt.registerTask('webfonts', ['clean:fonts','command:otf','command:eot','command:woff']);
   grunt.registerTask('css', ['clean:css','sass','cssmin']);
