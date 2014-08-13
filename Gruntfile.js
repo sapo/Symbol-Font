@@ -69,7 +69,7 @@ module.exports = function(grunt) {
           stylesheets: ["http://cdn.ink.sapo.pt/3.0.2/css/ink.min.css","dist/css/symbol-font.css"],
           col_width: 100,
           sample_template: '{% glyph %}\n',
-          glyph_template: '<div class="xlarge-10 large-15 medium-20 small-20 tiny-25"><button class="ink-button all-100 white p{% size %}"><span class="sf {% glyph %}"></span></button></div>\n'
+          glyph_template: '<div class="xlarge-10 large-15 medium-20 small-20 tiny-25"><button class="ink-button all-100 black p{% size %}"><span class="sf {% glyph %}"></span></button></div>\n'
         }
       }
     },
