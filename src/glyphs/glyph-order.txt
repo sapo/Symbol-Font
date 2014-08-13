@@ -114,6 +114,8 @@ sf.resize.compress
 sf.reload
 sf.refresh
 sf.home
+sf.cog
+sf.cogs
 sf.ink.badge
 sf.ink.badge.neg
 sf.sapo

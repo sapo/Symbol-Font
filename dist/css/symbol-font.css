@@ -7,6 +7,7 @@
   font-style: normal;
   font-weight: normal;
 }
+
 .sf {
   display: inline-block;
   font-family: SymbolFont;
@@ -468,6 +469,14 @@
 
 .sf-home:before {
   content: "\e070";
+}
+
+.sf-cog:before {
+  content: "\e073";
+}
+
+.sf-cogs:before {
+  content: "\e074";
 }
 
 .sf-badge:before {
