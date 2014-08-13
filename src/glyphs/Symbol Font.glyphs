@@ -1,10 +1,6 @@
 {
 DisplayStrings = (
-/sf.calendar,
-/sf.calendar.day.o,
-/sf.calendar.o,
-/sf.calendar.day,
-/sf.cog
+/sf.external
 );
 customParameters = (
 {
@@ -132,6 +128,7 @@ value = (
     "sf.reload",
     "sf.refresh",
     "sf.home",
+    "sf.external",
     "sf.cog",
     "sf.cogs",
     "sf.ink.badge",
@@ -10617,6 +10614,95 @@ width = 957.94;
 unicode = E070;
 },
 {
+glyphname = sf.external;
+lastChange = "2014-08-13 17:02:01 +0000";
+layers = (
+{
+layerId = "7BDE272C-C7FB-4166-8673-7B6B584E769E";
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"670 63 LINE SMOOTH",
+"670 39 OFFCURVE",
+"651 20 OFFCURVE",
+"627 20 CURVE SMOOTH",
+"193 20 LINE SMOOTH",
+"169 20 OFFCURVE",
+"150 39 OFFCURVE",
+"150 63 CURVE SMOOTH",
+"150 497 LINE SMOOTH",
+"150 521 OFFCURVE",
+"169 540 OFFCURVE",
+"193 540 CURVE SMOOTH",
+"433 540 LINE",
+"533 640 LINE",
+"193 640 LINE SMOOTH",
+"114 640 OFFCURVE",
+"50 576 OFFCURVE",
+"50 497 CURVE SMOOTH",
+"50 63 LINE SMOOTH",
+"50 -16 OFFCURVE",
+"114 -80 OFFCURVE",
+"193 -80 CURVE SMOOTH",
+"627 -80 LINE SMOOTH",
+"706 -80 OFFCURVE",
+"770 -16 OFFCURVE",
+"770 63 CURVE SMOOTH",
+"770 404 LINE",
+"670 304 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"910 764 OFFCURVE",
+"908 770 OFFCURVE",
+"904 774 CURVE SMOOTH",
+"900 778 OFFCURVE",
+"894 780 OFFCURVE",
+"889 780 CURVE SMOOTH",
+"593 780 LINE SMOOTH",
+"584 780 OFFCURVE",
+"577 775 OFFCURVE",
+"574 767 CURVE SMOOTH",
+"570 759 OFFCURVE",
+"572 750 OFFCURVE",
+"578 744 CURVE SMOOTH",
+"642 680 LINE SMOOTH",
+"651 672 OFFCURVE",
+"650 658 OFFCURVE",
+"642 650 CURVE SMOOTH",
+"391 399 LINE SMOOTH",
+"383 390 OFFCURVE",
+"383 377 OFFCURVE",
+"391 369 CURVE SMOOTH",
+"498 262 LINE SMOOTH",
+"506 253 OFFCURVE",
+"520 253 OFFCURVE",
+"528 261 CURVE SMOOTH",
+"779 512 LINE SMOOTH",
+"787 521 OFFCURVE",
+"801 521 OFFCURVE",
+"810 513 CURVE SMOOTH",
+"874 448 LINE SMOOTH",
+"880 442 OFFCURVE",
+"889 440 OFFCURVE",
+"897 444 CURVE SMOOTH",
+"905 447 OFFCURVE",
+"910 454 OFFCURVE",
+"910 463 CURVE",
+"910 759 LINE"
+);
+}
+);
+width = 960;
+}
+);
+unicode = E075;
+},
+{
 glyphname = sf.cog;
 lastChange = "2014-08-13 14:52:56 +0000";
 layers = (
@@ -11620,19 +11706,6 @@ width = 1243;
 }
 );
 unicode = E053;
-},
-{
-export = 0;
-glyphname = uniE075;
-lastChange = "2014-08-11 13:34:50 +0000";
-layers = (
-{
-layerId = "7BDE272C-C7FB-4166-8673-7B6B584E769E";
-name = Regular;
-width = 600;
-}
-);
-unicode = E075;
 },
 {
 export = 0;

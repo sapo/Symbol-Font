@@ -114,6 +114,7 @@ sf.resize.compress
 sf.reload
 sf.refresh
 sf.home
+sf.external
 sf.cog
 sf.cogs
 sf.ink.badge

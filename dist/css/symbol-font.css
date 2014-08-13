@@ -471,6 +471,10 @@
   content: "\e070";
 }
 
+.sf-external:before {
+  content: "\e075";
+}
+
 .sf-cog:before {
   content: "\e073";
 }
@@ -485,4 +489,8 @@
 
 .sf-badge-neg:before {
   content: "\e072";
+}
+
+.sf-sapo:before {
+  content: "\e053";
 }
