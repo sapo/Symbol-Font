@@ -30,6 +30,10 @@ sf.chevron.down.circle.o
 sf.chevron.left.circle.o
 sf.chevron.right.circle.o
 sf.chevron.up.circle.o
+sf.plus
+sf.minus
+sf.check
+sf.x
 sf.empty.circle
 sf.plus.circle
 sf.minus.circle
@@ -114,6 +118,10 @@ sf.resize.compress
 sf.reload
 sf.refresh
 sf.home
+sf.external
+sf.cog
+sf.cogs
 sf.ink.badge
 sf.ink.badge.neg
+sf.question.mark.circle
 sf.sapo

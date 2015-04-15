@@ -5,7 +5,6 @@ An icon font made for Ink
 ## Tasks
 Check the [TODO.md](https://github.com/sapo/Ink-Icons/blob/master/TODO.md) file
 
-
 ## Development tools
 
 * Adobe Illustrator CS5
@@ -18,6 +17,7 @@ Check the [TODO.md](https://github.com/sapo/Ink-Icons/blob/master/TODO.md) file
 * sfnt2woff
 * Sass
 * ttfautohint
+* Apple Font Tools Suite
 
 ### Setting up the build environment (OS X)
 
