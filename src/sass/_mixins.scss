@@ -1,14 +1,17 @@
+@mixin icon($name, $unicode) {
+
+  .#{$name}:before {
+    content: #{"\"\\"}#{$unicode + "\""};
+  }
+
+}
+
 @mixin icon-classes ($icons) {
 
   @each $icon in $icons {
-
     $icon-classname: nth($icon,1);
     $icon-glyph-unicode: nth($icon,2);
-
-    .#{$icon-classname}:before {
-      content: $icon-glyph-unicode;
-    }
-
+    @include icon($icon-classname,$icon-glyph-unicode);
   }
 
 }

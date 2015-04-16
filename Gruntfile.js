@@ -1,5 +1,6 @@
 module.exports = function(grunt) {
   grunt.initConfig({
+
     pkg: grunt.file.readJSON('package.json'),
     config: grunt.file.readJSON('config.json'),
 
@@ -14,10 +15,11 @@ module.exports = function(grunt) {
       ],
       zapf: [
         "<%= config.paths.src.zapf %>"
+      ],
+      sourcemaps: [
+        '<%= config.paths.dist.css.dir %>*.map'
       ]
     },
-
-
 
     command : {
         eot: {
@@ -36,9 +38,6 @@ module.exports = function(grunt) {
 
     sass: {
         dist: {
-          options: {
-            style: 'expanded'
-          },
           files: {
             '<%= config.paths.dist.css.dir %><%= config.paths.dist.css.file %>': '<%= config.paths.src.sass %>'
           }
@@ -46,18 +45,30 @@ module.exports = function(grunt) {
     },
 
     cssmin: {
-        dist: {
-            options: {
-                report: 'gzip',
-                keepSpecialComments: 0
-            },
-            files: {
-                '<%= config.paths.dist.css.dir %><%= config.paths.dist.css.min %>': ['<%= config.paths.dist.css.dir %><%= config.paths.dist.css.file %>']
-            }
+      options: {
+        sourceMap: true
+      },
+      target: {
+        files: {
+          '<%= config.paths.dist.css.dir %><%= config.paths.dist.css.min %>': ['<%= config.paths.dist.css.dir %><%= config.paths.dist.css.file %>']
         }
+      }
     },
 
-    //
+
+    zapf2scss: {
+      build: {
+          options: {
+            zapfTable: 'src/zapf-table/SymbolFont.xml',
+            sass: 'src/sass/_glyphs.scss',
+            sassListName: '$sf-icons',
+            charNamePrefix: 'ink-',
+            stripCharNamePrefix: true
+          }
+      }
+    },
+
+       //
     font_sampler: {
       main: {
         options: {
@@ -91,6 +102,7 @@ module.exports = function(grunt) {
   });
 
   // load tasks
+  grunt.loadNpmTasks('zapf2scss');
   grunt.loadNpmTasks('grunt-font-sampler');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-commands');
@@ -99,10 +111,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // register tasks
-  grunt.registerTask('default', ['zapf','webfonts','css','font_sampler']);
+  grunt.registerTask('default', ['zapf','webfonts','css','zapf2scss']);
   grunt.registerTask('zapf', ['clean:zapf','command:zapf']);
   grunt.registerTask('webfonts', ['clean:fonts','command:otf','command:eot','command:woff']);
-  grunt.registerTask('css', ['clean:css','sass','cssmin']);
+  grunt.registerTask('css', ['clean:css','clean:sourcemaps','sass','cssmin']);
   grunt.registerTask('dev', ['watch']);
 
 

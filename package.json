@@ -33,6 +33,8 @@
     "grunt-contrib-cssmin": "^0.9.0",
     "grunt-contrib-sass": "^0.7.3",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-font-sampler": "^1.3.3"
+    "grunt-font-sampler": "^1.3.x",
+    "grunt-shell": "^1.1.2",
+    "zapf2scss": "0.0.3"
   }
 }
