@@ -38,9 +38,6 @@ module.exports = function(grunt) {
 
     sass: {
         dist: {
-          options: {
-            // style: 'expanded'
-          },
           files: {
             '<%= config.paths.dist.css.dir %><%= config.paths.dist.css.file %>': '<%= config.paths.src.sass %>'
           }

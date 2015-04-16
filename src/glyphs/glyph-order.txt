@@ -118,6 +118,10 @@ sf.resize.compress
 sf.reload
 sf.refresh
 sf.home
+<<<<<<< HEAD
+=======
+sf.link
+>>>>>>> 41cde1c94bcda0f6f66a1239911e83400775b543
 sf.external
 sf.cog
 sf.cogs

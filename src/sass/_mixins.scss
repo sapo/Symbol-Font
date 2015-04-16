@@ -1,28 +1,17 @@
 @mixin icon($name, $unicode) {
+
   .#{$name}:before {
-    content: unquote("\"")+unquote(str-insert($unicode,"\\", 1))+unquote("\"");
+    content: #{"\"\\"}#{$unicode + "\""};
   }
+
 }
 
 @mixin icon-classes ($icons) {
 
   @each $icon in $icons {
-
     $icon-classname: nth($icon,1);
     $icon-glyph-unicode: nth($icon,2);
-
-    // .#{$icon-classname}:before {
-    //   content: unicode($icon-glyph-unicode);
-    // }
-
     @include icon($icon-classname,$icon-glyph-unicode);
-
-
   }
 
 }
-
-@function unicode($str){
-    @return unquote("\"") + $str + unquote("\"");
-}
-
